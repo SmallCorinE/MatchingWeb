@@ -1,11 +1,8 @@
 <?php
- if($_POST['id'] === 'egoing'){
-    if($_POST['password'] === '111111'){
-        echo 'right';
-    } else {
-        echo 'password wrong';
-    }
+ if($_POST['id'] === 'egoing' or $_POST['password'] === '111111')
+        echo 'both right';
 } else {
-    echo 'id wrong';
+    echo 'wrong';
 }
 ?>
+http://efaate.cafe24.com/html_Collection/textPut.html
