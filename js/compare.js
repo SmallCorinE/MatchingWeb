@@ -1,6 +1,5 @@
 var Link = {
 	setLinkColor:function (color){
-
 		$('a').css('color', color);
 	}
 }
