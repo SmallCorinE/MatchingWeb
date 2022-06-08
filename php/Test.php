@@ -5,4 +5,4 @@
     echo 'wrong';
 }
 ?>
-http://efaate.cafe24.com/html_Collection/textPut.html
+http://efaate.cafe24.com/html/textPut.html
