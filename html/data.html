@@ -21,35 +21,6 @@
 
 <hr style="margin-top:50px; margin-bottom:50px;">
 
-		<form id="preSubmit" action="../js/sendEmail.js" method="post">
-
-			<p style="margin-top:0px; margin-bottom:5px; background-color:white;color:black;border:5px solid pink;">
-				운영자는 사용자의 데이터를 온라인 매칭을 위해 사용하고 그 외의 용도로는 쓰지 않는다.<br>
-				<!-- 최근 한달간의 제출 데이터와 참여인원 수를 제외한 모든 기록은 매달 1일 오전00시 01분 일괄 삭제된다. -->
-			</p>
-
-			<label for="shallWe">위 내용에 동의합니다 :</label><br>
-				<input type="radio" name="shallWe" value="yes" required="required">동의
-				<input type="radio" name="shallWe" value="no">비동의<br><br>
-
-			<label for="uniEmailAdress">대학교 이메일 :</label><br>
-				<input type="email" id="uniEmailAdress" style="margin-top:0px; margin-bottom:5px;" required="required"
-				pattern= "[.ac.kr]$"
-				title = "ac.kr로 끝나는 국내 대학에서 발급한 이메일 주소"><br><!-- 여기서 yyyy@xxxx.ac.kr의 xxxx를 따와서 같은 학교끼리 매칭시켜야 됨 -->
-				<input type="submit" value="인증번호 발송"><br><br>
-
-		</form>
-
-		<form id="numForm" action="../php/action.php" method="post">
-
-			<label for="uniNum">인증 번호 :</label><br>
-				<input type="text" id="uniNum" value="" style="margin-top:0px; margin-bottom:5px;"><br>
-				<input type="submit" value="대학 인증완료"><br><br>
-
-		</form>
-
-<hr style="margin-top:-10px; margin-bottom:5px;">
-
 		<form id="mainSubmit" action="../php/action.php" method="post">
 
 			<label for="myGender">본인 성별 :</label><br>
