@@ -1,14 +1,20 @@
 var Link = {
 	setLinkColor:function (color){
-		$('a').css('color', color);
+		var alist = document.querySelectorAll('a');
+		var i = 0;
+		while(i<alist.length){
+			console.log(alist[i]);
+			alist[i].style.color=color;
+			i=i+1;
+		}
 	}
 }
 var Body = {
 	setLetterColor:function (color){
-		$('body').css('color', color);
+		document.querySelector('body').style.color=color;
 	},
 	setBackGColor:function (color){
-		$('body').css('backgroundColor', color);
+		document.querySelector('body').style.backgroundColor=color;
 	}
 }
 

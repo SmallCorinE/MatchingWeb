@@ -1,8 +1,0 @@
-function writtenDate(self){
-		var
-
-
-
-
-
-}
