@@ -1,0 +1,91 @@
+Keep going to analyze the code that i just entered, after the line you stopped, line by line. 
+
+Do not analyze multiple lines at once, but only one line at a time.
+
+The unit that separates lines is a newline character.
+
+Indicate what line in the code you are reading right now, and show entire line of code, and make newline, and show the analysis. 
+
+If you find "</head>", show entire line of code, and show "This is match part of <head>" and go to the next line.
+
+when you encounter "<!--br-->", show entire line of code, and show "dumb type of newline" and go to the next line.
+
+when you find a line that has only one tag starting with "</" and ending with ">" and only whitespace as its component, you need to analyze the tags starting with "</" and ending with ">" in that line.
+
+
+
+
+
+Analyze this code line by line. 
+
+Do not analyze multiple lines at once, but only one line at a time.
+
+The unit that separates lines is a newline character.
+
+Show entire line of code, and make newline, and show the analysis. 
+
+If you find "</head>", show entire line of code, and make newline, and show "This is match part of <head>" and go to the next line.
+
+when you encounter "<!--br-->", show entire line of code, and make newline, and show "dumb type of newline" and go to the next line.
+
+when you find a line that has only one tag starting with "</" and ending with ">" and only whitespace as its component, you need to analyze the tags starting with "</" and ending with ">" in that line.
+
+The code start with "<!DOCTYPE html>"
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>index</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="js/contrast.js"></script>
+        <style>a{color: pink;}</style>
+        <link rel="shortcut icon" href="browserTabIcon.png" type="image/x-icon">
+    </head>
+<!--br-->
+    <body style="background-color:black; Color:white;">
+<!--br-->
+        <nav>
+            <h1>
+                온라인 매칭 - 대학 동문 에디션
+            </h1>
+        </nav>
+<!--br-->
+        <input type="button" value="Make it bright" onclick="contrastHandler(this);">
+<!--br-->
+<hr style="margin-top:50px; margin-bottom:50px;">
+<!--br-->
+        <article>
+            <h2>서비스 소개</h2>
+            <p>
+                (대충 서로가 상대방이 제시한 조건을 만족할 때 1대1 매칭 시켜준다는 내용)
+            </p>
+<!--br-->
+            <h2 style="margin-top:50px; margin-bottom:10px;">운영 방식</h2>
+            <script>
+                var a=1;
+                document.write(a+". 학교인증 및 데이터 입력"+"<br>" )
+                var a=a+1;
+                document.write(a+". 학교별 데이터 누적"+"<br>" )
+                var a=a+1;
+                document.write(a+". 서로의 조건에 부합하는 짝 발생"+"<br>" )
+                var a=a+1;
+                document.write(a+". 결과확인 페이지를 통해 서로에게 카톡 아이디를 포함한 정보 공개"+"<br>" )
+            </script>
+            <p style="margin-top:50px; margin-bottom:-40px; font-size:5px; text-align: right;">
+                누적 참여인원 : N명<br>
+                 <!-- 최근 10일간의 신규 인원 : n명 -->
+            </p>
+<hr style="margin-top:50px; margin-bottom:50px;">
+<!--br-->
+        <p style="margin-top:0px; margin-bottom:50px;font-size:30px; text-align:center;">
+            <a href="html/datainzeung.html" target="_self" title="ㄱㄱ">매칭 참가</a><br>
+            <a href="html/result.html" target="_self" title="ㄱㄱㄱㄱ">결과 확인</a><br>
+            <a href="https://github.com/SmallCorinE" target="_blank" title="운영자 깃허브">Git Hub</a><br>
+        </p>
+<!--br-->
+        </article>
+<!--br-->
+        </body>
+</html>

@@ -1,0 +1,32 @@
+Analyze this code line by line. 
+
+Do not analyze multiple lines at once, but only one line at a time.
+
+The unit that separates lines is a newline character.
+
+Show the line number, and show entire line of code, and make newline, and show the analysis. 
+
+If you find "</head>", show entire line of code, and show "This is match part of <head>" and go to the next line.
+
+If you find "<!--br-->", show entire line of code, and show "sad type of newline" and go to the next line.
+
+If you find a line that has only one tag starting with "</" and ending with ">" and only whitespace as its component, you need to analyze the tags starting with "</" and ending with ">" in that line.
+
+The code start with "<!DOCTYPE html>"
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Inzeung</title>	
+	</head>
+
+	<body style="background-color:black; Color:white;">
+
+		<input type="button" value="Make it bright" onclick="contrastHandler(this);">
+
+		<hr style="margin-top:50px; margin-bottom:50px;">
+
+	</body>
+</html>
